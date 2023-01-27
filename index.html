@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jimmy Clairy | Développeur Web</title>
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name="description" content="Bienvenue sur mon portfolio, je suis développeur web, je me concentre sur la création d'applications Web front-end tout en apprenant les technologies back-end.">
+    <link rel="icon" type="image/jpg" href="pictures/icon/J.png">
+    <script src="./js/script.js" defer></script>
+
+</head>
+<body>
+
+    
+    <header class="header theme" id="header">
+        <div class="header__container container">
+            <img class="header__img" src="./pictures/compressed/jimmy.webp" alt="photo du propriétaire du site" width="167" height="250">
+            <p class="header__p">Passionné d'informatique, j'ai débuté par le HardWare en
+                montant mes propres ordinateurs durant mon temps libre. Puis,
+                j'ai voulu découvrir la programmation. Pour avoir des bases
+                solides je me suis formé chez Openclassroom. Je suis motivé
+                pour développer constamment mes compétences et évoluer
+                professionnellement en équipe.</p>
+
+            <div class="clock">
+                <div class="clock__needle clock__hours"></div>
+                <div class="clock__needle clock__minutes"></div>
+                <div class="clock__needle clock__seconds"></div>
+                <div class="clock__dot"></div>
+                <div class="clock__marker">
+                    <span class="clock__marker--1"></span>
+                    <span class="clock__marker--2"></span>
+                    <span class="clock__marker--3"></span>
+                    <span class="clock__marker--4"></span>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+
+    <nav class="nav-fix theme">
+        <a class="nav-fix__link" href="#"><img class="nav-fix__img"  src="./pictures/icon/J.png" alt="logo" width="50" height="50"></a>
+        <a class="nav-fix__link" href="#projets">Projets</a>
+        <a class="nav-fix__link" href="#skill">Compétences</a>
+        
+        <div class="nav-fix__btn-theme">
+            <img class="nav-fix__icon nav-fix__moon" src="./pictures/svg/moon-solid.svg" alt="moon">
+            <img class="nav-fix__icon nav-fix__sun" src="./pictures/svg/sun-solid.svg" alt="sun">
+            <span class="nav-fix__mode-txt"></span>
+        </div>
+    </nav>
+        
+    <button class="btn-toggle theme" aria-label="toggle curtain navigation">
+        <span class="btn-toggle__line l1"></span>
+        <span class="btn-toggle__line l2"></span>
+        <span class="btn-toggle__line l3"></span>
+    </button>
+    
+    <nav class="nav-slider theme">
+        <div class="nav-slider__icons">
+            <img id="iconJ" class="nav-slider__img"  src="./pictures/icon/J.png" alt="logo" width="80" height="80">
+            <!-- Arrow animated -->
+            <div class="arrow">
+                <div class="arrow__icon"></div>
+            </div>
+        </div>
+        
+        <p class="nav-slider__p">Contruisons ensemble<br> votre projet</p>
+        <a class="nav-slider__link" href="#projets">Projets</a>
+        <a class="nav-slider__link" href="#skill">Compétences</a>
+    </nav>
+
+
+    <main class="main-container container">
+        
+        <div class="bloc theme" id="bloc">
+            <h2 class="bloc__heading">Jimmy Clairy</h2>
+            <p class="bloc__p-1  bloc__special">Développeur Web</p>
+            <p class="bloc__p-2">Passionné d'informatique, j'ai débuté par le HardWare en
+                montant mes propres ordinateurs durant mon temps libre. Puis,
+                j'ai voulu découvrir la programmation. Pour avoir des bases
+                solides je me suis formé chez Openclassroom. Je suis motivé
+                pour développer constamment mes compétences et évoluer</p>
+    
+            <div class="bloc__content">
+                <a class="bloc__link" href="mailto:jimmyclairy@gmail.com"><img class="bloc__icon" src="./pictures/svg/envelope-solid.svg" alt="icon envelope"><span class="bloc__link-txt">jimmyclairy@gmail.com</span> </a>
+                <a class="bloc__link" href="tel:+33662607431"><img class="bloc__icon" src="./pictures/svg/phone-solid.svg" alt="icon phone"><span class="bloc__link-txt">06 62 60 74 31</span></a>
+                <a class="bloc__link" href="https://github.com/jimmy-clairy" target="_blank"><img class="bloc__icon" src="./pictures/svg/github.svg" alt="icon github"><span class="bloc__link-txt">/jimmy-clairy</span></a>
+                <a class="bloc__link" href="https://www.linkedin.com/in/jimmy-clairy/" target="_blank"><img class="bloc__icon" src="./pictures/svg/linkedin.svg" alt="icon linkedin"><span class="bloc__link-txt">/in/jimmy-clairy</span></a>
+            </div>
+            <a class="bloc__cv bloc__special" href="./cv/jimmy_clairy_cv_4.pdf" target="_blank"><i class="fa-solid fa-download"></i> Télécharger CV</a>
+        </div>
+
+
+
+        <div class="second-container">
+            <div class="projets box-container theme" id="projets">
+                <h2 class="projets__heading">Projets</h2>
+                <div class="projets__content">
+
+                    <div class="card">
+                        <div class="card__overlay">
+                            <h3 class="card__heading">Le Capitoul</h3>
+                            <div class="card__icons">
+                                <a class="card__link" href="https://jimmypro.fr/mes_projets/restaurant_le_capitoul/index.html" target="blank" rel="noopener noreferrer">
+                                    <img class="card__icon" src="./pictures/svg/eye-solid.svg" alt="icon see">
+                                </a>
+                                <a class="card__link" href="https://github.com/jimmy-clairy/restaurant_le_capitoul" target="_blank" rel="noopener noreferrer">
+                                    <img  class="card__icon" src="./pictures/svg/github-1.svg" alt="icon github">
+                                </a>
+                            </div>
+                        </div>
+
+                        <img class="card__img" src="./pictures/compressed/capitoul.webp" alt="couverture projet" width="640" height="400">
+
+                        <div class="card__content">
+                            <div class="card__title">Le Capitoul</div>
+                            <div class="card__skill">(HTML, SASS, JS)</div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__overlay">
+                            <h3 class="card__heading">OhMyFood</h3>
+                            <div class="card__icons">
+                                <a class="card__link" href="https://jimmypro.fr/mes_projets/projet_3/index.html" target="_blank" rel="noopener noreferrer">
+                                    <img  class="card__icon" src="./pictures/svg/eye-solid.svg" alt="icon see">
+                                </a>
+                                <!-- <a class="card__link" href="#" target="_blank" rel="noopener noreferrer">
+                                    <img  class="card__icon" src="./pictures/svg/github-1.svg" alt="icon github">
+                                </a> -->
+                            </div>
+                        </div>
+
+                        <img class="card__img" src="./pictures/compressed/ohmyfood-3-oc.webp" alt="couverture projet" width="640" height="400">
+
+                        <div class="card__content">
+                            <div class="card__title">OhMyFood</div>
+                            <div class="card__skill">(HTML, SASS)</div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__overlay">
+                            <h3 class="card__heading">Citation</h3>
+                            <div class="card__icons">
+                                <a class="card__link" href="https://jimmypro.fr/mes_projets/citations/index.html" target="_blank" rel="noopener noreferrer">
+                                    <img  class="card__icon" src="./pictures/svg/eye-solid.svg" alt="icon see">
+                                </a>
+                                <!-- <a class="card__link" href="#" target="_blank" rel="noopener noreferrer">
+                                    <img  class="card__icon" src="./pictures/svg/github-1.svg" alt="icon github">
+                                </a> -->
+                            </div>
+                        </div>
+
+                        <img class="card__img" src="./pictures/compressed/citation.webp" alt="couverture projet" width="640" height="400">
+
+                        <div class="card__content">
+                            <div class="card__title">Citation</div>
+                            <div class="card__skill">(HTML, CSS, JS)</div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__overlay">
+                            <h3 class="card__heading">Booki</h3>
+                            <div class="card__icons">
+                                <a class="card__link" href="https://jimmypro.fr/mes_projets/projet_2/index.html" target="_blank" rel="noopener noreferrer">
+                                    <img  class="card__icon" src="./pictures/svg/eye-solid.svg" alt="icon see">
+                                </a>
+                                <!-- <a class="card__link" href="#" target="_blank" rel="noopener noreferrer">
+                                    <img  class="card__icon" src="./pictures/svg/github-1.svg" alt="icon github">
+                                </a> -->
+                            </div>
+                        </div>
+
+                        <img class="card__img" src="./pictures/compressed/booki-2-oc.webp" alt="couverture projet" width="640" height="400">
+
+                        <div class="card__content">
+                            <div class="card__title">Booki</div>
+                            <div class="card__skill">(HTML, SASS)</div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__overlay">
+                            <h3 class="card__heading">Météo</h3>
+                            <div class="card__icons">
+                                <a class="card__link" href="https://jimmypro.fr/mes_projets/appli_meteo/index.html" target="_blank" rel="noopener noreferrer">
+                                    <img  class="card__icon" src="./pictures/svg/eye-solid.svg" alt="icon see">
+                                </a>
+                                <!-- <a class="card__link" href="#" target="_blank" rel="noopener noreferrer">
+                                    <img  class="card__icon" src="./pictures/svg/github-1.svg" alt="icon github">
+                                </a> -->
+                            </div>
+                        </div>
+
+                        <img class="card__img" src="./pictures/compressed/meteo.webp" alt="couverture projet" width="640" height="400">
+
+                        <div class="card__content">
+                            <div class="card__title">Météo</div>
+                            <div class="card__skill">(HTML, CSS, JS)</div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__overlay">
+                            <h3 class="card__heading">Blog D'Audrey</h3>
+                            <div class="card__icons">
+                                <a class="card__link" href="https://jimmypro.fr/mes_projets/blog_d_audrey/index.html" target="_blank" rel="noopener noreferrer">
+                                    <img  class="card__icon" src="./pictures/svg/eye-solid.svg" alt="icon see">
+                                </a>
+                                <!-- <a class="card__link" href="#" target="_blank" rel="noopener noreferrer">
+                                    <img  class="card__icon" src="./pictures/svg/github-1.svg" alt="icon github">
+                                </a> -->
+                            </div>
+                        </div>
+
+                        <img class="card__img" src="./pictures/compressed/blog-d-audrey.webp" alt="couverture projet" width="640" height="400">
+
+                        <div class="card__content">
+                            <div class="card__title">Blog D'Audrey</div>
+                            <div class="card__skill">(HTML, SASS, JS)</div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__overlay">
+                            <h3 class="card__heading">Travel Agency</h3>
+                            <div class="card__icons">
+                                <a class="card__link" href="https://jimmypro.fr/mes_projets/travel_agency/index.html" target="_blank" rel="noopener noreferrer">
+                                    <img  class="card__icon" src="./pictures/svg/eye-solid.svg" alt="icon see">
+                                </a>
+                                <a class="card__link" href="https://github.com/jimmy-clairy/Travel_agency" target="_blank" rel="noopener noreferrer">
+                                    <img  class="card__icon" src="./pictures/svg/github-1.svg" alt="icon github">
+                                </a>
+                            </div>
+                        </div>
+
+                        <img class="card__img" src="./pictures/compressed/travel-agency.webp" alt="couverture projet" width="640" height="400">
+
+                        <div class="card__content">
+                            <div class="card__title">Travel Agency</div>
+                            <div class="card__skill">(HTML, SASS, JS)</div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__overlay">
+                            <h3 class="card__heading">Réseau Social</h3>
+                            <div class="card__icons">
+                                <a class="card__link" href="https://jimmypro.fr/mes_projets/reseau_social/index.html" target="_blank" rel="noopener noreferrer">
+                                    <img  class="card__icon" src="./pictures/svg/eye-solid.svg" alt="icon see">
+                                </a>
+                                <!-- <a class="card__link" href="#" target="_blank" rel="noopener noreferrer">
+                                    <img  class="card__icon" src="./pictures/svg/github-1.svg" alt="icon github">
+                                </a> -->
+                            </div>
+                        </div>
+
+                        <img class="card__img" src="./pictures/compressed/reseau-social.webp" alt="couverture projet" width="640" height="400">
+
+                        <div class="card__content">
+                            <div class="card__title">Réseau Social</div>
+                            <div class="card__skill">(HTML, CSS)</div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__overlay">
+                            <h3 class="card__heading">Quizz</h3>
+                            <div class="card__icons">
+                                <a class="card__link" href="https://jimmypro.fr/mes_projets/quizz_jimmy/index.html" target="_blank" rel="noopener noreferrer">
+                                    <img  class="card__icon" src="./pictures/svg/eye-solid.svg" alt="icon see">
+                                </a>
+                                <!-- <a class="card__link" href="#" target="_blank" rel="noopener noreferrer">
+                                    <img  class="card__icon" src="./pictures/svg/github-1.svg" alt="icon github">
+                                </a> -->
+                            </div>
+                        </div>
+
+                        <img class="card__img" src="./pictures/compressed/quizz.webp" alt="couverture projet" width="640" height="400">
+
+                        <div class="card__content">
+                            <div class="card__title">Quizz</div>
+                            <div class="card__skill">(HTML, CSS, JS)</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    
+            <div class="skill box-container theme" id="skill">
+                <h2 class="skill__heading">Compétences</h2>
+                <div class="skill__content">
+
+                    <div class="skill__card">
+                        <img class="skill__img" src="./pictures/icon/html5.png" alt="icon skill" width="80" height="80">
+                        <span class="skill__txt">HTML 5</span>
+                    </div>
+                    <div class="skill__card">
+                        <img class="skill__img" src="./pictures/icon/css.png" alt="icon skill" width="80" height="80">
+                        <span class="skill__txt">CSS 3</span>
+                    </div>
+                    <div class="skill__card">
+                        <img class="skill__img" src="./pictures/icon/sass-480x480.png" alt="icon skill" width="80" height="80">
+                        <span class="skill__txt">SASS</span>
+                    </div>
+                    <div class="skill__card">
+                        <img class="skill__img" src="./pictures/icon/js.png" alt="icon skill" width="80" height="80">
+                        <span class="skill__txt">JAVASCRIPT</span>
+                    </div>
+                    <div class="skill__card">
+                        <img class="skill__img" src="./pictures/icon/git480x480.png" alt="icon skill" width="80" height="80">
+                        <span class="skill__txt">GITHUB</span>
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+    </main>
+
+    <footer class="footer theme" id="footer">
+        <div class="container">
+            <p class="footer__p">Designed by Jimmy Clairy,</p>
+            <p class="footer__p"> all rights reserved 2023 ©</p>
+        </div>
+    </footer>
+
+</body>
+</html>
