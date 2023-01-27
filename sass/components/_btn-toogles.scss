@@ -1,0 +1,50 @@
+.btn-toggle {
+    position: fixed;
+    top: 1.5rem;
+    right: 1.5rem;
+    z-index: 10;
+    height: 4rem;
+    width: 4rem;
+    @include center;
+    border: none;
+    border-radius: $border-rad;
+    background: $cl-gradient, rgba(0, 0, 0, 1);
+    cursor: pointer;
+    transition: transform 0.3s;
+    &:hover {
+        transform: scale(1.2);
+    }
+    @include desktop {
+        top: 2.5rem;
+        right: 2.5rem;
+    }
+
+    &__line {
+        position: absolute;
+        display: block;
+        width: 80%;
+        height: 0.24rem;
+        background: white;
+        transition: transform 0.3s ease-out, opacity 0.1s ease-out;
+    }
+
+    & .l1 {
+        transform: translateY(-0.9rem);
+    }
+    
+    & .l3 {
+        transform: translateY(0.9rem);
+    }
+    
+    &.active .l1 {
+        transform: translateY(0) rotate(135deg);
+    }
+    
+    &.active .l2 {
+        opacity: 0;
+    }
+    
+    &.active .l3 {
+        transform: translateY(0) rotate(-135deg);
+    }
+}

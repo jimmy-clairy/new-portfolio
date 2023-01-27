@@ -1,0 +1,10 @@
+.footer {
+    margin-top: 3rem;
+    padding: 3rem 0;
+    background: $cl-gradient;
+
+    &__p {
+        display: inline-block;
+        line-height: 2.5rem;
+    }
+}

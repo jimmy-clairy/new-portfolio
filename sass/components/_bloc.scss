@@ -1,0 +1,78 @@
+.bloc {
+    margin: 7rem 0 3rem;
+    padding: 0.1rem 2rem;
+    border-radius: $border-rad;
+    background: $cl-gradient, rgba($cl-black, 1);
+
+    @include desktop {
+        flex: none;
+        height: fit-content;
+        margin: 0;
+        width: 280px;
+        position: sticky;
+        top: 10rem;
+    }
+
+    // Paragraph hidden mobile
+    &__p-2 {
+        margin: 1.6rem 0;
+        line-height: 2.4rem;
+        @include desktop {
+            display: none;
+        }
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-around;
+        @include desktop {
+            flex-direction: column;
+        }
+    }
+
+    &__link {
+        @include desktop {
+            margin: 0.8rem 0;
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    &__icon {
+        width: 28px;
+        height: 28px;
+        @include desktop {
+            margin-right: 1.6rem;
+        }
+    }
+
+    &__link-txt {
+        display: none;
+        @include desktop {
+            display: inline-block;
+            border-bottom: 2px solid rgba($cl-black, 0);
+            transition: 0.4s;
+            &:hover {
+                border-bottom: 2px solid $cl-white;
+                padding-left: 1rem;
+            }
+        }
+    }
+
+    &__special {
+        margin: 1.6rem 0;
+        padding: 1rem;
+        font-size: 2rem;
+        background-color: rgba($cl-black, 0.5);
+        border-radius: 20px;
+        text-align: center;
+    }
+    
+    &__cv {
+        display: block;
+        transition: 0.4s;
+        &:hover {
+            background-color: rgba($cl-white, 0.2);
+        }
+    }
+}

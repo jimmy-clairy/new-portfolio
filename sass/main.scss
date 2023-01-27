@@ -1,0 +1,19 @@
+@import "./utils/variables";
+@import "./utils/mixin";
+
+@import "./bases/generals";
+
+@import "./layouts/header";
+
+@import "./pages/home";
+
+@import "./components/nav-fix";
+@import "./components/btn-toogles";
+@import "./components/nav-slider";
+@import "./components/bloc";
+@import "./components/card";
+@import "./components/clock";
+
+@import "./layouts/footer";
+
+@import "./themes/themes";

@@ -1,0 +1,14 @@
+$cl-main: #3a1bff;
+$cl-white: white;
+$cl-black: black;
+
+$shadow: 0.1rem 0.1rem 0.5rem  darken($cl-white, 10), -0.1rem -0.1rem 0.5rem $cl-white;
+$inner-shadow: inset 0.1rem 0.1rem 0.5rem $cl-white, inset -0.1rem -0.1rem 0.5rem $cl-white;
+
+$cl-gradient: linear-gradient(to left bottom,#6f00fa4d,#6632fc47,#6049fb7d,#5d5af996,#5e68f6bf,#3f77f796,#1e83f48a,#008dee6b,#0098e494,#00a0d69e,#19a6c68a,#4faab7b8);
+$cl-gradient-1: linear-gradient(135deg, rgba(115,200,169,1) 0%, rgba(55,59,68,1) 17%, rgba(115,200,169,1) 35%, rgba(55,59,68,1) 70%, rgba(115,200,169,1) 88%);
+
+$size-container: 85%;
+
+$border-rad: 5px;
+$border-clock: 5px;

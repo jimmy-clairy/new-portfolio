@@ -1,0 +1,61 @@
+.nav-fix {
+    display: none;
+
+    @include desktop {
+        position: fixed;
+        top: 1rem;
+        left: 7.5%;
+        background: $cl-gradient, $cl-black;
+        z-index: 4;
+        border-radius: $border-rad;
+        @include center;
+    }
+
+    &__link {
+        margin: 1rem 2rem;
+        font-size: 1.8rem;
+        position: relative;
+        &::before {
+            content: "";
+            position: absolute;
+            background: $cl-white;
+            width: 100%;
+            height: 2px;
+            bottom: -4px;
+            transform-origin: 100% 0;
+            transform: scaleX(0);
+            transition: transform 0.4s;
+        }
+        &:hover {
+            &::before {
+                transform-origin: 0 0;
+                transform: scaleX(1);
+            }
+        }
+    }
+
+    &__img {
+        display: block;
+        border-radius: $border-rad;
+    }
+
+    &__btn-theme {
+        background-color: rgba($cl-black, 0.5);
+        padding: 0.6rem;
+        margin-right: 1rem;
+        border-radius: $border-rad;
+        min-width: 12.7rem;
+        cursor: pointer;
+        @include center;
+        transition: 0.2s;
+        &:hover {
+            padding: 1rem 0.6rem;
+        }
+    }
+    
+    &__icon {
+        width: 25px;
+        height: 25px;
+        margin-right: 1rem;
+    }
+}

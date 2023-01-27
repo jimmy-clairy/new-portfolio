@@ -1,0 +1,29 @@
+.header {
+    display: none;
+
+    @include desktop {
+        display: block;
+        margin-top: 9rem;
+        margin-bottom: 3rem;
+        padding: 2rem 0;
+        background: $cl-gradient;
+    }
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__img {
+        border-radius: $border-rad;
+        margin-bottom: -10rem;
+        margin-left: 6rem;
+    }
+
+    &__p {
+        padding: 0 5rem;
+        max-width: 80rem;
+        line-height: 2.6rem;
+    }
+}

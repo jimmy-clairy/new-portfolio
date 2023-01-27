@@ -1,0 +1,15 @@
+//  Modify color
+.changeColor {
+    background: $cl-gradient-1;
+}
+
+// Modify Background
+.changeTheme {
+    background: url('../pictures/compressed/white-gold_2250x4000.webp') center / cover;
+}
+
+@include desktop {
+    .changeTheme {
+        background: url('../pictures/compressed/whiteGold_7001x4001.webp') center / cover;
+    }
+}
